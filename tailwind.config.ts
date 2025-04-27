@@ -9,7 +9,7 @@ export default {
   ],
   theme: {
   	extend: {
-  		colors: {
+		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -55,7 +55,11 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		backgroundImage: {
+			grainBg: 'url("/assets/grainfx.png")',
+			gradientOverlay: 'bg-[linear-gradient(to_bottom,#3B1F83_30%,#004AAD_75%,#1C1C1C_100%)]'
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

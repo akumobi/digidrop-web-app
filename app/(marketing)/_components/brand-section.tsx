@@ -21,7 +21,7 @@ const brands = [
 ]
 const BrandSupport = () => {
   return (
-    <section className='container mx-auto h-full relative bg-[#1C1C1C] py-12 mt-8  mb-8'>
+    <section className='container mx-auto h-full relative bg-[#1C1C1C] py-12 mt-8  mb-8  after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-grainBg'>
         <h1 className='text-4xl text-center font-chakra font-bold uppercase text-white'>EXPANDING OUR REACH THROUGH STRATEGIC PARTNERSHIPS WITH PREMIUM PATRNER</h1>
         <div className="grid grid-cols-2 pt-10 md:grid-cols-3 lg:grid-cols-4 gap-8 place-items-center">
 

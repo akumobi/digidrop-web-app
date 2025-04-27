@@ -1,11 +1,12 @@
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import Image from 'next/image'
-import React from 'react'
+// import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
   return (
-    <div className='w-full py-4 sticky top-0 h-full z-10 md:h-14 text-gray-200 bg-[#0B0B0B]'>
+    <div className='w-full py-4 sticky top-0 h-full z-50 md:h-14 text-gray-200 bg-[#0B0B0B]'>
        <div className='container mx-auto font-chakra flex flex-col md:flex-row justify-between items-center h-full'>
         <div className="flex gap-4">
             <div>
@@ -29,5 +30,6 @@ const Navbar = () => {
     </div>
   )
 }
+
 
 export default Navbar

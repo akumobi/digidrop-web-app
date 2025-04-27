@@ -4,7 +4,7 @@ import BenefitSection from './benefit-section'
 
 const ServiceSection = () => {
   return (
-    <section className="w-full min-h-screen -mt-24 mb-8 bg-[#1C1C1C]/90  bg-[url('/assets/pattern-bg.png')] bg-cover bg-no-repeat bg-center bg-blend-multiply p-6 ">
+    <section className="w-full min-h-screen -mt-24 mb-8 bg-[#1C1C1C]/90  bg-[url('/assets/pattern-bg.png')] bg-cover bg-no-repeat bg-center bg-blend-multiply p-6 relative after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-grainBg">
         <div className="container py-24 mx-auto flex flex-col md:flex-row gap-2">
             <div className='max-w-2xl'>
                 <h1 className='text-4xl py-6 px-4 mb-4 tracking-tight font-bold text-white text-balance font-chakra leading-12 uppercase'>Complete multiple quests and collect as Many points as you can.</h1>

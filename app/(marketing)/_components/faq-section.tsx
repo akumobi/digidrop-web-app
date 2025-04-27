@@ -30,7 +30,7 @@ const FAQ = () => {
         setOpenIndex(openIndex === index ? null : index);
       };
   return (
-    <section className='max-w-4xl mx-auto mt-14 p-6'>
+    <section className='max-w-4xl mx-auto mt-14 p-6 relative after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-grainBg'>
         <h2 className="text-3xl font-bold text-center mb-6 text-white">Frequently Asked Questions</h2>
         <div className="space-y-4">
         {faqs.map((faq, index) => (
